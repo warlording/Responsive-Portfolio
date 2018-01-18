@@ -1,0 +1,28 @@
+header .container {
+  width: 810px;
+}
+
+form {
+	max-width: 390px;
+}
+
+.content {
+	width: 810px;
+}
+
+.main {
+  width: 420px;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio-item {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.portfolio-item:nth-child(even) {
+	margin-left: 0;
+}

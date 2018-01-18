@@ -1,0 +1,60 @@
+header .container {
+  width: 100%;
+}
+
+.name, .logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  padding: 32px 0;
+}
+
+.nav {
+  width: 100%;
+  text-align: center;
+  padding: 1.7em 0;
+  font-size: 1.2em;
+}
+
+.nav ul li {
+  padding-left: 40px;
+  margin-left: 40px;
+}
+
+.nav ul li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.content {
+	width: 580px;
+}
+
+.main, .sidebar {
+  width: 500px;
+  margin: 40px auto;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio-item {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.portfolio-item:nth-child(even) {
+	margin-left: 0;
+}
+
+.contact {
+  width: 470px;
+}
+
+form {
+  width: 100%;
+  max-width: 100%;
+}

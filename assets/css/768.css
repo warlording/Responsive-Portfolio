@@ -1,0 +1,40 @@
+header .container {
+  width: 720px;
+}
+
+
+
+.content {
+	width: 720px;
+}
+
+.main, .sidebar {
+  width: 640px;
+  margin: 40px auto;
+}
+
+.sidebar {
+  margin-top: 0;
+}
+
+.portfolio {
+  text-align: left;
+}
+
+.portfolio-item {
+	width: 305px;
+	height: 200px;
+}
+
+.portfolio-item:nth-child(even) {
+	margin-left: 25px;
+}
+
+.contact {
+  width: 610px;
+}
+
+form {
+  width: 100%;
+  max-width: 100%;
+}
